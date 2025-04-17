@@ -9,7 +9,7 @@ using namespace std;
 class EscalonadorRoundRobin {
 private:
     int quantum;
-    std::queue<Processo> fila;
+    queue<Processo> fila;
 
 public:
     EscalonadorRoundRobin(int q);
