@@ -16,9 +16,7 @@ O sistema contém:
 ├── Processo.h / Processo.cpp         # Classe que representa um processo
 ├── Escalonador.h / Escalonador.cpp  # Implementação do escalonador Round Robin
 ├── Kernel.h / Kernel.cpp             # "Cérebro" que orquestra a simulação
-├── main.cpp                          # Ponto de entrada da aplicação
-├── Makefile                          # Script para compilação
-└── README.md                         # Você está aqui
+├── main.cpp                          
 ```
 
 ---
