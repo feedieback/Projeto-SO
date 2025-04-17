@@ -1,4 +1,4 @@
-# Simulador de Escalonamento de Processos
+# Simulador de Sistema Operacional 
 
 Simulação de um sistema operacional simples com escalonamento de processos utilizando o algoritmo **Round Robin**, escrito em **C++**.
 
