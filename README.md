@@ -1,4 +1,4 @@
-# 🧵 Simulador de Escalonamento de Processos
+# Simulador de Escalonamento de Processos
 
 Simulação de um sistema operacional simples com escalonamento de processos utilizando o algoritmo **Round Robin**, escrito em **C++**.
 
@@ -9,7 +9,7 @@ O sistema contém:
 
 ---
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 .
@@ -23,62 +23,22 @@ O sistema contém:
 
 ---
 
-## ⚙️ Como compilar
-
-Certifique-se de ter o `g++` instalado. No terminal, digite:
-
-```bash
-make
-```
-
-Isso vai gerar o executável `simulador`.
-
----
-
-## ▶️ Como rodar
-
-Após compilar, execute:
-
-```bash
-./simulador
-```
-
-Você verá a execução passo a passo dos processos simulados, com mensagens indicando o tempo restante de cada um, finalizações e movimentações na fila de execução.
-
----
-
-## 💡 Exemplo de Saída
+##  Exemplo de Saída
 
 ```
-Inicializando Kernel...
+Inicializando Sistema
 
 Executando Processo P1 (restante: 5)
-→ Tempo usado: 3, restante: 2
+Tempo usado: 3, restante: 2
 P1 volta pra fila
 
 Executando Processo P2 (restante: 8)
-→ Tempo usado: 3, restante: 5
+Tempo usado: 3, restante: 5
 P2 volta pra fila
 
 ...
 
-P3 finalizado ✅
+P3 finalizado 
 
-Encerrando Kernel.
+Encerrando Sistema
 ```
-
----
-
-## 📌 Possíveis melhorias
-
-- Gerenciamento de memória
-- Threads dentro dos processos
-- Outros algoritmos de escalonamento (SJF, FCFS, etc)
-- Interface gráfica com Qt ou SDL
-- Logs de execução em arquivo
-
----
-
-## 🧠 Sobre
-
-Este projeto é uma base para estudar **sistemas operacionais** e **estruturas de escalonamento**, ideal para uso didático ou para expandir em um projeto maior.
