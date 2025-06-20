@@ -127,15 +127,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Escalonador.cpp" />
+    <ClCompile Include="FileManager.cpp" />
+    <ClCompile Include="IOManager.cpp" />
     <ClCompile Include="Kernel.cpp" />
-    <ClCompile Include="Processo.cpp" />
+    <ClCompile Include="MemoryManager.cpp" />
+    <ClCompile Include="ProcessManager.cpp" />
     <ClCompile Include="Projeto-SO.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Escalonador.h" />
+    <ClInclude Include="FileManager.h" />
+    <ClInclude Include="IOManager.h" />
     <ClInclude Include="Kernel.h" />
-    <ClInclude Include="Processo.h" />
+    <ClInclude Include="MemoryManager.h" />
+    <ClInclude Include="Process.h" />
+    <ClInclude Include="ProcessManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

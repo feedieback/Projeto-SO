@@ -1,7 +1,9 @@
 #include "Kernel.h"
 
 int main() {
-    Kernel kernel(3);
+    Kernel kernel;
     kernel.iniciar();
+    kernel.interfaceUsuario();
+    kernel.executar();
     return 0;
 }
