@@ -1,6 +1,4 @@
 #include "IOManager.h"
-#include <iostream>
-using namespace std;
 
 void IOManager::requisitarIO(int pid) {
     cout << "Requisicao de IO para PID " << pid << ".\n";

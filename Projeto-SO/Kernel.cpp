@@ -1,5 +1,4 @@
 ﻿#include "Kernel.h"
-#include <sstream>
 
 Kernel::Kernel() {}
 

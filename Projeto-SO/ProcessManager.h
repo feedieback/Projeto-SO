@@ -1,12 +1,7 @@
 #ifndef PROCESS_MANAGER_H
 #define PROCESS_MANAGER_H
 
-#include <queue>
-#include <vector>
-#include <string>
 #include "Process.h"
-#include <iostream>
-using namespace std;
 
 class ProcessManager {
 public:

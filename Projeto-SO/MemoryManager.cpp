@@ -1,7 +1,4 @@
 #include "MemoryManager.h"
-#include <iostream>
-
-using namespace std;
 
 MemoryManager::MemoryManager() {
     blocos.push_back(BlocoMemoria(0, tamanhoTotal));

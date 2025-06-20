@@ -1,7 +1,4 @@
 ﻿#include "FileManager.h"
-#include <iostream>
-#include <algorithm>
-using namespace std;
 
 void FileManager::criarArquivo(const string& nome) {
     arquivos.push_back(nome);
