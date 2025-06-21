@@ -67,18 +67,6 @@ Após compilar, execute no terminal:
 
 O simulador exibirá a interface de linha de comando, permitindo digitar os comandos listados acima.
 
-## 📌 Melhorias futuras
-
-- [ ] Implementação de algoritmos de escalonamento (SJF, FCFS, Round Robin completo)
-- [ ] Persistência dos arquivos no disco
-- [ ] Gerenciamento de memória com algoritmos Best Fit e Worst Fit
-- [ ] Interface gráfica (Qt ou Console aprimorado)
-- [ ] Logs de execução e monitoramento
-
-## 🧠 Autor
-
-- Desenvolvido para fins acadêmicos e aprendizado de conceitos de Sistemas Operacionais.
-
 ## 📜 Licença
 
 Este projeto é livre para uso educacional.
